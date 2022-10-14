@@ -140,11 +140,21 @@ b{
   text-align: center;
   color: #F2CDAC;
   font-family: 'Silkscreen', cursive;
-  
-  
-  
-  
+}  
+.skill-info{
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  position: relative;
+  top:100px;
 }
+.skillShow{
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  position: relative;
+  top:0px;
+}
+  
+
 .skill-icon{
   padding-top: 50px;
   font-size: 10em;
