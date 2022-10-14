@@ -1,6 +1,9 @@
 import './App.css';
 import Navigation from './components/Navigation';
-import Intro from './components/Inrto';
+import Intro from './components/Intro';
+import SelfIntroduce from './components/SelfIntroduce';
+
+
 
 
 function App() {
@@ -9,6 +12,9 @@ function App() {
       
       <Navigation/>
       <Intro/>
+      <SelfIntroduce/>
+
+
     </div>
   );
 }
