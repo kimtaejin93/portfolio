@@ -49,14 +49,13 @@ const Navigation = () => {
             
         </div>
         <div className={'nav-menu '+(fold?'':'active')}>
-            <div className='menu'>A</div>
-            <div className='menu'>B</div>
-            <div className='menu'>C</div>
-            <div className='menu'>D</div>
-            <div className='menu'>E</div>
+            <div className='menu'>CONTACT</div>
+            <div className='menu'>tj4467@naver.com</div>
+            <div className='menu'>010-4187-4467</div>
+                        
         </div>
         <div className={'nav-social '+(fold?'':'active')}>
-            <a href="http://www.naver.com">
+            <a href="https://github.com/kimtaejin93">
             <FontAwesomeIcon icon={faGithub} className='nav-icon'/>
             </a>
         </div>

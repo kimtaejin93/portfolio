@@ -8,10 +8,16 @@ const Project = () => {
         <Row>
           <Col md={6}>
             <video src='/netflix.mp4' className='project-video' autoPlay loop muted/>
-            <a className='project-name' href='https://taejin-netflix.netlify.app'>NETFLIX</a>
+            <div>LINK TO</div>
+            <a className='project-name' href='https://taejin-netflix.netlify.app'>NETFLIX Copy</a>
           </Col>
           <Col md={6}>
-            2
+          <video src='/others.mp4' className='project-video' autoPlay loop muted/>
+          <div>LINK TO</div>
+            <a className='project-name' href='https://todolist-taejin.netlify.app'>TO DO LIST</a><br/>
+            <a className='project-name' href='https://phonebook-by-redux.netlify.app'>PHONE BOOK</a><br/>
+            <a className='project-name' href='https://weather-api-taejin.netlify.app'>WEATHER</a><br/>
+            <a className='project-name' href='https://taejin-game.netlify.app'>ROCKSISSORPAPER GAME</a>
           </Col>
           
         </Row>
