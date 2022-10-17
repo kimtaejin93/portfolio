@@ -119,12 +119,14 @@
   font-size: 2em;
   font-weight: 1000;
   padding-bottom: 20px;
+  text-align: center;
 }
 .sub-introduce{
   color:beige;
   font-size: 1.3em;
   padding-top: 20px;
   padding-bottom: 50px;
+  text-align: center;
 }
 b{
   font-weight: 900;
