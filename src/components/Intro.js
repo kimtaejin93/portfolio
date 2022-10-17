@@ -20,8 +20,7 @@ const Intro = () => {
         <img src={photo} title="증명사진" className="intro-photo"/>
       </div>
       <div className='sub-introduce'>
-        안녕하세요<br/>
-        어제보다 발전하는 <b>개발자</b>를 꿈꾸는 김태진입니다.
+        안녕하세요 어제보다 발전하는 <b>개발자</b>를 꿈꾸는 김태진입니다.
       </div>
       
       

@@ -90,10 +90,9 @@
 .intro{
   padding-top: 50px;
   background-color:#4CABA6;
+  word-break: keep-all;
 }
 .intro-box{
-  margin-left:20%;
-  margin-right: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,6 +126,8 @@
   padding-top: 20px;
   padding-bottom: 50px;
   text-align: center;
+  
+  
 }
 b{
   font-weight: 900;
@@ -137,6 +138,7 @@ b{
   background-color: #F2CDAC;
   font-family: 'Dongle', sans-serif;
   font-size: 1.5em;
+  word-break: keep-all;
 }
 .self-border{
   padding-top: 20px;
